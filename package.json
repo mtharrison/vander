@@ -1,7 +1,7 @@
 {
   "name": "vander",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serve up any directory with hapi",
   "main": "index.js",
   "bin": {
     "vander": "./bin/serve"
@@ -9,9 +9,9 @@
   "scripts": {
     "start": "node ./bin/serve"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["static", "file", "server"],
+  "author": "Matt Harrison <hi@matt-harrison.com>",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "hapi": "^17.5.4",
     "inert": "^5.1.0"
