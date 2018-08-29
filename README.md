@@ -10,5 +10,7 @@ npx vander
 
 Environment variables:
 
+```
 DIR=[.]
 PORT=[8000]
+```
